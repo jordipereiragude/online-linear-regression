@@ -1,2 +1,4 @@
 streamlit
+statsmodels
 pandas
+plotly
