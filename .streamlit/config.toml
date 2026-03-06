@@ -1,0 +1,15 @@
+[theme]
+base = "light"
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f5f5"
+textColor = "#111111"
+font = "sans serif"
+
+[server]
+# Hugging Face Spaces runs Streamlit behind a reverse proxy.
+# Disabling XSRF/CORS checks avoids 403 on file uploader requests.
+enableXsrfProtection = false
+enableCORS = false
+# Keep upload limit explicit (MB).
+maxUploadSize = 200
