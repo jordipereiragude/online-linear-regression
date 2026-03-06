@@ -2,3 +2,4 @@ streamlit
 statsmodels
 pandas
 plotly
+openpyxl
